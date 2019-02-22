@@ -192,7 +192,7 @@ var AppService = /** @class */ (function () {
         this.http = http;
     }
     AppService.prototype.getJoke = function () {
-        var apiUrl = 'http://api.icndb.com';
+        var apiUrl = 'https://api.icndb.com';
         return this.http.get(apiUrl + "/jokes/random?escape=javascript");
     };
     AppService = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
