@@ -1,0 +1,40 @@
+$default: #333;
+$primary: #113a77;
+
+.shell {
+    color: $default;
+    font-family: 'Righteous', cursive;
+    font-size: 1rem;
+    padding: 2rem 15px;
+    text-align: center;
+    width: 100%;
+
+    h1 {
+        color: $primary;
+        font-family: 'Miss Fajardose', cursive;
+        font-size: 4rem;
+        margin-bottom: 1.5rem;
+    }
+
+    img {
+        display: block;
+        height: auto;
+        margin: 0 auto 2rem; 
+        width: 60px;
+    }
+    
+    p {
+        line-height: 1.5;
+        margin-bottom: 2rem; 
+    }
+
+    button {
+        background: $primary;
+        border-color: transparent;
+        border-radius: 3px;
+        color: #fff;
+        padding: .5rem 18px;
+    }
+
+}
+
