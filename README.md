@@ -6,7 +6,9 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ## Setup
 
-Run `npm instal` for dependancies.
+Clone the code `git clone https://github.com/jeffplloyd/norris-jokes.git`.
+
+Run `npm install` for dependancies.
 
 ## Development server
 
