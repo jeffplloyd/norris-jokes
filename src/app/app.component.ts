@@ -20,7 +20,7 @@ export class AppComponent implements OnInit {
     this.loading = true;
     this.chuckJoke = null;
     this.appSvc.getJoke().subscribe((response: any) => {
-      this.chuckJoke = response.value.joke;
+      this.chuckJoke = response.value;
       this.loading = false
     });
   }
