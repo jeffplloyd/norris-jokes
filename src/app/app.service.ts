@@ -9,7 +9,7 @@ export class AppService {
   constructor(private http: HttpClient) { }
 
   public getJoke() {
-    let apiUrl = 'https://api.icndb.com';
-    return this.http.get(`${apiUrl}/jokes/random?escape=javascript`);
+    let apiUrl = 'https://api.chucknorris.io';
+    return this.http.get(`${apiUrl}/jokes/random`);
   }
 }
