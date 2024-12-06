@@ -106,7 +106,7 @@ var AppComponent = /** @class */ (function () {
         this.loading = true;
         this.chuckJoke = null;
         this.appSvc.getJoke().subscribe(function (response) {
-            _this.chuckJoke = response.value.joke;
+            _this.chuckJoke = response.value;
             _this.loading = false;
         });
     };
