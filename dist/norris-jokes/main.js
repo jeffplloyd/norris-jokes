@@ -192,8 +192,8 @@ var AppService = /** @class */ (function () {
         this.http = http;
     }
     AppService.prototype.getJoke = function () {
-        var apiUrl = 'https://api.icndb.com';
-        return this.http.get(apiUrl + "/jokes/random?escape=javascript");
+        var apiUrl = 'https://api.chucknorris.io';
+        return this.http.get(apiUrl + "/jokes/random");
     };
     AppService = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Injectable"])({
